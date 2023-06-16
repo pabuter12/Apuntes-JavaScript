@@ -24,6 +24,16 @@ La forma recomenda es hacer otro archivo y pegar al final del codigo html:
 </html>
 ```
 
+# Formas de comentar 
+
+```javascript
+//Comentario de una sola linea
+
+/* Este es un comentario 
+multilinea
+*/
+```
+
 # Variables
 
 Que reserve espacio en la memoria ram para un dato.
@@ -35,12 +45,27 @@ Si son dos palabras, asi: anioNacimiento
 Palabras reservadas
 ![palabras reservadas](./palabras%20reservadas.png)
 
-# Declaración
-Declarar una variable significa crearla. Se usa la palabra `var` `let` y `const`. Ejemplo:
+# Declaración de una variable
+Declarar una variable significa crearla. Hay tres tipos de declaraciones en JavaScript 
+
+`var` : Declara una variable, inicianizandola opcionalmente a un valor. Podra cambiar su valor y su scope es local. 
+
+`let` : Declara una variable local en un bloque de ámbito, inicianizandola opcionalmente a un valor. Podra cambiar su valor. 
+
+`const`: Declara una variable de sólo lectura en un bloque de ámbito. No será posible cambiar su valor, mediante la asignación. 
+
+Ejemplo:
 
 ```javascript
 let nombre;
 ```
+
+# Ámbito de una variable
+1. **Variable global:** Cuando declaras una variable fuera de una función. Esta disponible para cualquier otro codigo en e documento actual. 
+
+2. **Variable local:** Cuando declaras una variable dentro de una función. Esta disponible solo dentro de esa función donde fue creada. 
+
+
 
 # contantes
 Siempre seran el valor asignado
@@ -67,6 +92,28 @@ También se puede hacer en la misma linea:
 // declaraxcion y asignacion en la misma linea
 let apellido = "Gomez";
 ```
+# Tipos de datos
+
+- **String:** Secuencia de cáracteres que representa un valor. Ej: "Hola"
+
+- **Number:** Valor numérico (entero,decimal...) Ej: 555
+
+- **Bolean:** Valores *true* o *false*
+
+- ***Null:** Denota valor nulo. null no es lo mismo que Null, NULL
+
+- **Undefined:** Valor sin definir
+
+- **Symbol:** Tipo de dato cuyos casos son únicos e inmutables.
+
+- **Object:** Objecto. {} Puede contener más variables en su interior. 
+
+# Typeof
+
+Es utilizada para saber el tipo de dato que tiene una variable. Ej:
+
+![Ejemplo de Typeof](./typeof.png)
+
 # Operaciones matematicas 
 
 ```javascript
@@ -187,3 +234,20 @@ let precioConIva = precio * 1.21;
 //Mostrarlo al usuario
 alert("El precio final con Iva es $"+precioConIva);
 ```
+
+
+
+# MATERIAL AMPLIADO
+
+Consola, variables y tipos de datos | 
+ Los apuntes de Majo (Página 1 a 8).
+ https://drive.google.com/file/d/11Qd_2a9YfHq7Yt4IGLXwWRs6OFpSu-6o/view
+
+
+Variables, valores y referencias | 
+Te lo explico con gatitos.
+https://teloexplicocongatitos.com/poster/tlecg08
+
+Práctica interactiva sobre Algoritmia | 
+La aventura del punto.
+https://little-dot.toxicode.fr/?hour-of-code
