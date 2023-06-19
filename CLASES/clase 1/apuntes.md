@@ -1,6 +1,6 @@
 Proyecto: Se puede hacer variedad de cosas, algo que no estusiasme. Tener en cuenta que el proyecto es una simulación. Ecomerce, conversor, videojuegos, adivinar personaje....
 
- ![ss](./Screenshot%202023-06-14%20083208.png)
+ ![ss](./img/Screenshot%202023-06-14%20083208.png)
  Las pre enregas tienen hasta 7 dias a partir de esas clase. Proyecto final 10 días. 
 
  Tambien se puede utilizar un framework para hacer la parte de css más rapido. 
@@ -43,7 +43,7 @@ No utilizar palabras con ñ, tildes...
 Si son dos palabras, asi: anioNacimiento
 
 Palabras reservadas
-![palabras reservadas](./palabras%20reservadas.png)
+![palabras reservadas](./img/palabras%20reservadas.png)
 
 # Declaración de una variable
 Declarar una variable significa crearla. Hay tres tipos de declaraciones en JavaScript 
@@ -112,7 +112,7 @@ let apellido = "Gomez";
 
 Es utilizada para saber el tipo de dato que tiene una variable. Ej:
 
-![Ejemplo de Typeof](./typeof.png)
+![Ejemplo de Typeof](./img/typeof.png)
 
 # Operaciones matematicas 
 
@@ -192,7 +192,7 @@ Solo es cambiar el console.log por alert:
 alert( "La suma de las notas es: " + sumaNotas);
 ```
 Apareceria asi:
-![alert ejemplo](./alert.png)
+![alert ejemplo](./img/alert.png)
 
 # PROMPT - Ingreso de datos del usuario
 Para que el usuario ingrese un dato. 
@@ -202,7 +202,7 @@ ejemplo:
 ```javascript
 let nombreIngresado = prompt("Ingrese su nombre");
 ```
-![ejemplo de como se ve un prompt](./prompt.png)
+![ejemplo de como se ve un prompt](./img/prompt.png)
 
 **NOTA IMPORTANTE:** Prompt toma los datos en formato strinmg (texto).
 
