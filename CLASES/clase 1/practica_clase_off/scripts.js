@@ -61,7 +61,7 @@ let precioProducto = parseInt(prompt("Ingrese el precio del producto"));
 
 const iva = 1.19;
 
-let precioProductoIva = (precioProducto * iva)
+let precioProductoIva = precioProducto * iva;
 
 alert("El precio del producto con el iva incluido es de" + " " + precioProductoIva)
 
@@ -72,8 +72,25 @@ const numeroX = 2;
 console.log(typeof precioProducto);
 console.log(typeof numeroX);
 
+//Ejercicio 7
 
+let correo;
+correo = prompt("Ingrese su correo electrónico:");
 
+alert("Su correo electronico es" + " " + correo)
 
+// Ejercicio 8
+
+let numeroA = 4;
+let numeroB = 5;
+const pi = 3.1416;
+
+let multipliAB = numeroA * numeroB;
+
+console.log(multipliAB);
+
+let multipliAPi= numeroA * pi;
+
+console.log(multipliAPi);
 
 
