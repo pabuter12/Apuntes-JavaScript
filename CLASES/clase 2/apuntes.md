@@ -100,7 +100,7 @@ else {
 # Operadores logicos
 como son: es igual, es distinto, menor, menor o igual, mayor, mayor o igual, and (y), or (o) y not (no). La sintaxis se basa en símbolos, como veremos a continuación. 
 
-![Alt text](image-1.png)
+![Alt text](operadores.png)
 
 # Aclaración && AND
 Ante una combinación de operadores && (AND) será requisito que todas las comparaciones sean verdaderas para que condición compuesta sea verdadera. 
