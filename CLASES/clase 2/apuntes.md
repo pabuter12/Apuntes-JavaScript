@@ -141,6 +141,61 @@ if((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado =="
     alert("Error: Ingresar nombre valido");
 }
 ```
+# Operadores aritmeticos
+Además de lo estandar (+, -, * y /) Javascript brinda los siguientes operadores aritmeticos. 
+
+## Resto %
+Corresponde al modulo de una operación. Devuelve el resto o residuo de una división. 
+```javascript
+let a = 5;
+let b = 2;
+
+let modulo = a % b;
+console.log(modulo); //=1
+```
+## Incremento ++ 
+Incrementa en una unidad al operando. Si es usado: ++x devuleve el valor operando despues de añadirle 1. Si se usa= x++ devuleve el valor antes de añadirle 1. 
+```javascript
+let incremento =1;
+console.log(incremento);
+incremento++;
+console.log(incremento);
+incremento++;
+console.log(incremento);
+```
+
+## Decremento --
+Resta una unidad al operando. Dependiendo la posición con respecto al operando, tiene el mismo comportamiento que el incremento. 
+
+```javascript
+let decremento = 19;
+decremento--; // 19
+console.log(decremento); //=18
+--decremento; // 17, lo regresa de inmediato
+```
+# Conversion de tipo de datos
+## Convertir string a numeros
+### parseInt()
+Sirve para "parsear" una cadena (string) e intentar obtener un valor numérico. 
+
+```javascript
+let a = "1234"; //Aqui esta como string
+let b = parseInt(a); // Aqui ya como numero ENTERO
+```
+### parseFloat()
+El número se intrepeta como DECIMAL.
+
+```javascript
+let s = "3.14";
+let n = parseFloat(s) //Aqui ya esta como un numero decimal y no como string
+```
+#### ParseInt a un numero decimal, ejemplo:
+
+```javascript
+let s = "3.14"
+let n = parseInt(s) //=3
+```
+
 
 
 

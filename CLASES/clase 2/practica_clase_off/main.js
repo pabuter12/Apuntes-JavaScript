@@ -46,3 +46,37 @@ if(nombreUsuario == usuario1 || nombreUsuario == usuario2){
     alert("Nombre de usuario incorrecto.");
 }
 */
+
+/*
+// Ejercio de operador resto o modulo (%):
+
+// 3 % 1 = 0, 3 % 2 =1. 
+
+
+let a = 5;
+let b = 2;
+
+let modulo = a % b;
+console.log(modulo); //=1
+
+b = 2;
+modulo = a % b;
+console.log(modulo);
+
+b = 0.29;
+modulo = a % b;
+console.log(modulo);
+*/
+
+/*
+// Ejercicios de los operando de incremento y decremento
+
+let incremento =1;
+console.log(incremento);
+incremento++;
+console.log(incremento);
+incremento++;
+console.log(incremento);
+*/
+
+
