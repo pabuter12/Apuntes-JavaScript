@@ -20,7 +20,7 @@ for (let i = 1; i <= 10; i++) {
 
 // Diapositiva 12 - ejemplo práctico - Turnos
 
-//Algoritmo para dar turno del 1 al 20 a los nombres asignados
+//Algoritmo para dar turno del 1 al 5 a los nombres asignados
 
 for (let i = 1; i <= 5; i++) {
     // En cada repetición solicitamos un nombre.
@@ -100,7 +100,7 @@ do{
 
 // switch es un condicional como el if
 
-let id = prompt("Ingresa el codigo del prodcuto 0-para salir");
+let id = prompt("Ingresa el codigo del producto, 0-para salir");
 
 
 while(id != "0"){
