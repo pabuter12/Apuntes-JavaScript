@@ -62,7 +62,7 @@ function calculadora(primerNumero, segundoNumero, operacion) {
 console.log(calculadora(10, 5, "*"));
 ```
 
-## Resultado de una función
+## Resultado de una función (retorno)
 Las funciones pueden utilizar un valor de retorno usando la palabra "return", obteniendo el valor cuando la función es llamada. 
 
 ```javascript
